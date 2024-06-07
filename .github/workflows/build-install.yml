@@ -9,5 +9,5 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - run: |
-        npm install --no-optional
+        npm install --omit=optional
         npm run all
