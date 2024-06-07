@@ -45,8 +45,8 @@ jobs:
           else
             npm test
             npx hereby LKG
-            git config user.email "typescriptbot@microsoft.com"
-            git config user.name "TypeScript Bot"
+            git config user.email "will.sargent@emcins.com"
+            git config user.name "Will Sargent"
             git add -f package-lock.json
             git commit -m "Update package-lock.json"
             git push
